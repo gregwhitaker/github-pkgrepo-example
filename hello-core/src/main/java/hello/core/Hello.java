@@ -1,4 +1,4 @@
-package com.github.gregwhitaker.pkgrepotest;
+package hello.core;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -1,16 +1,14 @@
 plugins {
-    id 'java'
+    id 'com.gradle.build-scan' version '3.0'
 }
 
-group 'com.github.gregwhitaker'
-version '1.0-SNAPSHOT'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
+buildScan {
+    termsOfServiceUrl = "https://gradle.com/terms-of-service"
+    termsOfServiceAgree = "yes"
 }
 
-dependencies {
-    implementation 'org.apache.commons:commons-lang3:3.9'
+allprojects {
+    repositories {
+        mavenCentral()
+    }
 }

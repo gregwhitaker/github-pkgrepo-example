@@ -1,3 +1,6 @@
 rootProject.name = 'github-pkgrepo-test'
 include 'app'
+include 'webapp'
+include 'hello-service'
+include 'hello-core'
 
