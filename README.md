@@ -1,6 +1,20 @@
 # github-pkgrepo-test
 Test repo for experimenting with Github's new package repository.
 
+## Prerequisites
+This example requires that you modify the `gradle.properties` file in your home directory to include the following:
+
+* `gpr.user` - Set this property to your github username. 
+
+* `gpr.key` - Set this property to a github api key.
+
+For information on creating Github API keys please refer to the [Github Documentation](https://help.github.com/en/github/managing-packages-with-github-package-registry/configuring-gradle-for-use-with-github-package-registry#authenticating-to-github-package-registry).
+
+## Running the Example
+Execute the following command to build and publish the `hello-core` library:
+
+    ./gradlew publish
+
 ## License
 MIT License
 
