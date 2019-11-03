@@ -7,8 +7,8 @@ plugins {
 sourceCompatibility = '1.8'
 
 dependencies {
-    implementation project(':hello-core')
-    
+    implementation 'com.github.gregwhitaker.ghpkgrepotest:hello-core:0.1.0-snapshot'
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
 }
 

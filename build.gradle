@@ -10,5 +10,8 @@ buildScan {
 allprojects {
     repositories {
         mavenCentral()
+        maven {
+            url = 'https://maven.pkg.github.com/gregwhitaker/github-pkgrepo-test'
+        }
     }
 }
