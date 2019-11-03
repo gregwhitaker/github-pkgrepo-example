@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/hello")
-    public ResponseEntity<?> sayHello(@RequestParam("name") String name) {
+    public ResponseEntity<?> sayHello(@RequestParam(value = "name", required = false) String name) {
         return ResponseEntity.ok(Hello.sayHello(name));
     }
 }

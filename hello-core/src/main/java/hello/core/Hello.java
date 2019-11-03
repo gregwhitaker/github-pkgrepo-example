@@ -8,7 +8,7 @@ public class Hello {
         if (StringUtils.isNotEmpty(name)) {
             return "Hello " + StringUtils.capitalize(name) + "!";
         } else {
-            return "Hello!";
+            return "Hello You!";
         }
     }
 }
