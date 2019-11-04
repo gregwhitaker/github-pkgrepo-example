@@ -1,4 +1,4 @@
-# github-pkgrepo-test
+# github-pkgrepo-example
 Test repo for experimenting with Github's new package repository.
 
 ## Prerequisites
