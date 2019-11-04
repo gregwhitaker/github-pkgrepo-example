@@ -17,7 +17,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/gregwhitaker/github-pkgrepo-test")
+            url = uri("https://maven.pkg.github.com/gregwhitaker/github-pkgrepo-example")
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("GPR_USER")
                 password = project.findProperty("gpr.key") ?: System.getenv("GPR_API_KEY")
